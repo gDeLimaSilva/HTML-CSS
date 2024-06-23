@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+header {
+    background-color: #00008B;
+    color: #FFF;
+    padding: 15px;
+    text-align: center;
+}
+
+.container {
+    background-color: #EEE;
+    min-height: 60vh;
+    padding: 50px;   
+}
+
+.stadiums-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+.stadium-image {
+    height: 150px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+.card {
+    width: calc(33.333% - 30px);
+    display: inline-block;
+    margin: 15px;
+    padding: 15px;
+    vertical-align: top;
+    font-size: 16px;
+    background-color: #FFF;
+}
+
+#st1 {
+    background-image: url('../img/Berlin.jpg');
+}
+
+#st2 {
+    background-image: url('../img/Rhein.jpg');
+}
+
+#st3 {
+    background-image: url('../img/Dortmund.jpg');
+}
+
+#st4 {
+    background-image: url('../img/Merkur.jpg');
+}
+
+#st5 {
+    background-image: url('../img/Commerzbank.jpg');
+}
+
+#st6 {
+    background-image: url('../img/Schalke.jpg');
+}
+
+#st7 {
+    background-image: url('../img/Volkspark.jpg');
+}
+
+#st8 {
+    background-image: url('../img/Leipzig.jpg');
+}
+
+#st9 {
+    background-image: url('../img/Allianz.jpg');
+}
+
+#st10 {
+    background-image: url('../img/Stuttgart.jpg');
+}
+
+footer {
+    background-color: #00008B;
+    color: #FFF;
+    text-align: center;
+    padding: 80px;
+}
