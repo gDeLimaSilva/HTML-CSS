@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+* {
+
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Tilt Neon', cursive;
+    color: #000;
+
+}
+
+
+body {
+
+    background-color: #90EE90;
+
+}
+
+.container {
+
+
+    width: 80%;
+    margin: 50px auto;
+
+}
+
+.box {
+
+
+    background: #fff;
+    display: flex;
+
+}
+
+.box2 {
+
+
+    flex-basis: 60%;
+    padding: 40px 60px;
+
+}
+
+.box3 {
+
+
+    flex-basis: 40%;
+    padding: 40px;
+    background: #00ff00;
+    color: #fff;
+
+}
+
+section {
+
+    font-weight: bold;
+
+}
+
+h1 {
+
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 15;
+
+}
+
+h2 {
+
+    text-align: left;
+}
+
+p {
+
+    margin-bottom: 10px;
+
+}
+
+
+footer {
+
+    align-self: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    font-weight: bold;
+}
+
+a {
+
+    color: #00ff00;
+
+}
+
+a:visited {
+
+    color: #023020;
+
+}
+
+form {
+
+    display: inline-block;
+
+}
+
+label {
+
+    width: 100px;
+    display: inline-block;
+    margin: 4px;
+
+}
+
+#nasc {
+
+    width: 56%;
+
+}
+
+button {
+
+    margin: 20px;
+    width: 60%;
+    padding: 4px;
+    background-color: #00ff00;
+    color: white;
+    border: none;
+
+}
